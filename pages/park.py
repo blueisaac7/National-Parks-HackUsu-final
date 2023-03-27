@@ -49,9 +49,9 @@ with left_column:
 #    st.write(av)
 
     #chatGPT integration
-    recommender = GeneralModel()
-    recommendation = recommender.model_prediction(title_text, api_key="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")
-    print(recommendation)
+    # recommender = GeneralModel()
+    # recommendation = recommender.model_prediction(title_text, api_key="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")
+    # print(recommendation)
 
 
 
@@ -62,7 +62,7 @@ with left_column:
     #                       #, months[1]: av[1], months[2]: av[2],months[3]: av[3], months[4]: av[4], months[5]: av[5], months[6]: av[6], months[7]: av[7], months[8]: av[8], months[9]: av[9], months[10]: av[10], months[11]: av[11]})
     # st.line_chart(av[1:])
     st.write("Here are some recommendations provided by GPT from OpenAI:")
-    st.write(recommendation)
+    # st.write(recommendation)
     st.write("https://www.nps.gov/" + name + "/index.htm")
 
 
